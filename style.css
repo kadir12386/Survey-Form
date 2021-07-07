@@ -12,6 +12,7 @@ section {
     background-color: white;
     padding: 30px;
 }
+/* Form */
 label {
     font-size: 17px;
     font-weight: 700;
@@ -36,6 +37,7 @@ span {
 .text-undername b {
     margin-top: -30px;
 }
+/* Title  */
 h4 {
     margin-top: 15px;
     font-size: 17px;
@@ -44,7 +46,8 @@ i {
     color: rgb(238, 186, 54);
     font-size: 24px;
     margin: 5px 6px 24px 0px;
-}
+} 
+/* Table style */
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -58,6 +61,7 @@ td:nth-child(6) {
     text-align: center;
     padding: 10px;
 }
+/* Table head */
 th {
     padding-bottom: 10px;
     padding-top: 10px;
@@ -65,26 +69,28 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+/* table td */
 th, td {
     text-align: left;
     padding: 9px;
  }
+/* width  for textbox1 */
 .width-td1 {
     width: 160px;
     padding: 9px;
 }
-
+/* width  for textbox2 */
 .width-td {
     width: 160px;
     padding: 9px;
 }
-
+/* Textarea */
 textarea {
     width: 100%;
     height: 120px;
     margin-top: 5px;
 }
-
+/* button style */
 button {
     padding: 15px 20px;
     border: none;
@@ -109,7 +115,7 @@ button {
 .w-50 {
     width: 67%;
 }
-
+/* Media styles */
 @media (max-width:1200px){
     body {
     padding: 100px 100px;
